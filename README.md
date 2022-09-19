@@ -8,6 +8,7 @@ This source code provides the GAN model [1] to generate vitual MNIST images. I t
 * During training you can plot the generated images, but Image MATLAB Toolbox may be necessary. (See option 'opts.checker'.)
 * Supports GPU boosting (required MATLAB Computing Toolbox)
 * Only two options: standard GAN (gan), least square GAN (lsgan)
+  (You can easily add other GAN-styled loss functions, but you have to specify the gradients in person.)
 * As for basic framework of vanila DNN, [2] is partially utilized.
 
 ## Run the demo
